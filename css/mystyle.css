@@ -13,6 +13,7 @@
     text-align: center;
     font-size: 35px;
     color: white;
+    height: 600px;
   }
   
   /* Container for flexboxes */
@@ -29,10 +30,37 @@
     background: #ccc;
     padding: 20px;
   }
+  /*text start*/
+  .contheading{
+    padding-left: 10%;
+  }
+  /*text end*/
+  /*image start*/
   img {
-    max-width: 100%;
+    max-width:max-content;
     height: auto;
-  }  
+  } 
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  } 
+  /*image end*/
+  /* unvisited link */
+  a:link, a:visited {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: green;
+    color: white;
+  }
   /* Style the list inside the menu */
   nav ul {
     list-style-type: none;
