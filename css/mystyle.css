@@ -8,12 +8,12 @@
   
   /* Style the header */
   header {
-    background-color: #666;
-    padding: 30px;
+    background-image: url(/img/header.jpg);
+    padding-top: 0px;
     text-align: center;
     font-size: 35px;
     color: white;
-    height: 600px;
+    height: 100%;
   }
   
   /* Container for flexboxes */
