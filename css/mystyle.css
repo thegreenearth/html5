@@ -51,7 +51,7 @@
   /*image end*/
   /* unvisited link */
   a:link, a:visited {
-    background-color: rgb(247, 245, 245);
+    background-color: rgb(7, 136, 35);
     color: black;
     padding: 10px 20px;
     text-align: center;
